@@ -25,7 +25,6 @@ h1 {
   font-family: "Asap Condensed",Tahoma,Verdana,sans-serif;
   font-size: 4.8em;
 }
-
 h2 {
   font-family: "Asap Condensed",Tahoma,Verdana,sans-serif;
   font-size: 4em;
@@ -46,6 +45,26 @@ p {
   line-height: 1.6;
 }
 
+/* If the screen size is 601px wide or more */
+@media screen and (min-width: 601px) {
+  h1 { font-size: 4.8em;}
+  h2 { font-size: 4em;}
+  h3 { font-size: 2.4em;}
+  h4 { font-size: 1.5em;}
+  p { font-size: 1.9em;}
+}
+
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+  h1 { font-size: 3.2em;}
+  h2 { font-size: 2.8em;}
+  h3 { font-size: 2em;}
+  h4 { font-size: 1.2em;}
+  p { font-size: 1.3em;
+    line-height: 1; 
+  }
+}
+  
 .commitlist-header {
  margin-bottom: -1em;
 }
@@ -75,7 +94,7 @@ NO DODGY OFFSETS</h3>
  
 <p class="fuschia">Read the plan and sign up below.</p> 
 
-<img id="station-pic" alt="Flinders St Station" src="images/panorama-climate-sit-in.jpg">
+<img alt="crowd outside Flinders St Station" src="images/panorama-climate-sit-in.jpg">
 
 
 <h2>WHAT'S THE SITUATION?</h2>
@@ -85,7 +104,7 @@ NO DODGY OFFSETS</h3>
  
 <p>For a start.</p><br />
 
-<img alt "Crowd with flags" src="images/xr-street-flags.jpg">
+<img alt="Crowd with flags" src="images/xr-street-flags.jpg">
 
 <h2>WHAT'S THE PLAN?</h2>
 <p>25th, 26th, 27th May<br />
